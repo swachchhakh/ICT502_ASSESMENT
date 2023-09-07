@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ICT502 ASSESMENT AFTAB</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -33,16 +33,16 @@
         opacity: 1 !important;
       }
 
-.carousel{
-  background-color: rgba(0, 0, 0, 0.167);
-}
+      .carousel {
+        background-color: rgba(0, 0, 0, 0.167);
+      }
     </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container bg-light">
         <a class="navbar-brand" href="#">
-          <img src="./images/logo.jpg" class="w-75" alt="">
+          <img src="./images/logo.jpg" class="w-75" alt="" />
         </a>
         <button
           class="navbar-toggler"
@@ -55,450 +55,616 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="nav nav-pills ">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="nav nav-pills">
             <li class="nav-item">
               <a href="#" class="nav-link" aria-current="page">Home</a>
             </li>
-            <li class="nav-item"><a href="#services-section" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="#choose-us" class="nav-link">Why Choose Us</a></li>
-            <li class="nav-item"><a href="#blogs-section" class="nav-link">FAQs</a></li>
-            <!-- <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
+            <li class="nav-item">
+              <a href="#services-section" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#choose-us" class="nav-link">Why Choose Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blogs-section" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-us-section" class="nav-link">Contact Us</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-<section class="slider-section">
-  <div id="carouselExample" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./images/slide1.jpg" class="d-block w-100 " alt="..." />
-      </div>
-      <div class="carousel-item">
-        <img src="./images/slide2.jpg" class="d-block w-100" alt="..." />
-      </div>
-      <div class="carousel-item">
-        <img src="./images/slide3.jpg" class="d-block w-100" alt="..." />
-      </div>
-    </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselExample"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselExample"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
-     
-  
-    <section style="margin: 50px 0" class="tax-calculator-section">
-      <div class="container">
-        <div
-          style="
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          "
-        >
-          <h1 id="animated-header" class="animate__animated">
-            Australian Tax Calculator
-          </h1>
-
-          <label for="income">Annual Income (AUD):</label>
-          <span style="margin: 10px 0"></span>
-          <input type="number" id="income" placeholder="Enter your income" />
-          <span style="margin: 10px 0"></span>
-          <button class="btn btn-dark" onclick="calculateTax()">
-            Calculate Tax
+    <main>
+      <section class="slider-section">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/slide1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slide2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/slide3.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
           </button>
-          <div id="result"></div>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </div>
-    </section>
-    <section class="clients-section-counter my-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="count-num">
-              <span class="num" data-val="3000">000</span>
-              <a href="" >
-                <i class="fa-solid fa-person"></i>
-              </a>
-              <h5>Clients</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="count-num">
-              <span class="num" data-val="200">000</span>
-              <a href="">
-                <i class="fa-regular fa-handshake"></i>
-              </a>
-              <h5>Case Settled</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="count-num">
-              <span class="num" data-val="400">000</span>
-              <a href="">
-                <i class="fa-solid fa-scale-balanced"></i>
-              </a>
-              <h5>On going</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="count-num">
-              <span class="num" data-val="2200">000</span>
-              <a href="">
-                <i class="fa-solid fa-gavel"></i>
-              </a>
-              <h5>Case Won</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </section>
-    <div class="secondary-banner p-5">
-      <h2 class="text-center text-white">Accounting Made For You, the Non-Accountant</h2>
-      <h4 class="text-center text-white">Are you looking for an accountant, tax agent or bookkeeping services?</h4>
-    </div>
+      </section>
 
-   <section id="services-section">
-    <div class="container my-3">
-      <div class="container px-4 py-5" id="featured-3">
-        <h2
-          class="pb-2 border-bottom text-center animate__animated"
-          id="animated-header"
-        >
-          Professional CPA Tax Accountants, Tax Agents
+      <section style="margin: 50px 0" class="tax-calculator-section">
+        <div class="container">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <h1 id="animated-header" class="animate__animated">
+              Australian Tax Calculator
+            </h1>
+
+            <label for="income">Annual Income (AUD):</label>
+            <span style="margin: 10px 0"></span>
+            <input type="number" id="income" placeholder="Enter your income" />
+            <span style="margin: 10px 0"></span>
+            <button class="btn btn-dark" onclick="calculateTax()">
+              Calculate Tax
+            </button>
+            <div id="result"></div>
+          </div>
+        </div>
+      </section>
+      <section class="clients-section-counter my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="count-num">
+                <span class="num" data-val="3000">000</span>
+                <a href="">
+                  <i class="fa-solid fa-person"></i>
+                </a>
+                <h5>Clients</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="count-num">
+                <span class="num" data-val="200">000</span>
+                <a href="">
+                  <i class="fa-regular fa-handshake"></i>
+                </a>
+                <h5>Case Settled</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="count-num">
+                <span class="num" data-val="400">000</span>
+                <a href="">
+                  <i class="fa-solid fa-scale-balanced"></i>
+                </a>
+                <h5>On going</h5>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="count-num">
+                <span class="num" data-val="2200">000</span>
+                <a href="">
+                  <i class="fa-solid fa-gavel"></i>
+                </a>
+                <h5>Case Won</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="secondary-banner p-5">
+        <h2 class="text-center text-white">
+          Accounting Made For You, the Non-Accountant
         </h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <span style="font-size: 3em; color: Tomato">
-              <i class="far fa-dot-circle"></i>
-            </span>
-            <h3 class="fs-2 text-body-emphasis">Professional CPA</h3>
-            <p>
-              Unlock the growth potential of your business by partnering with an
-              EndureGo CPA Tax Expert in Inner West Sydney, Belrose Northern
-              Beaches or Adelaide.
-            </p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
-          </div>
-          <div class="feature col">
-            <span style="font-size: 3em; color: Tomato">
-              <i class="fa-solid fa-horse-head"></i>
-            </span>
-            <h3 class="fs-2 text-body-emphasis">Registered Tax Agents</h3>
-            <p>
-              Accounting Made For You, the Non-Accountant. Are you looking for
-              an accountant, tax agent or bookkeeping services? REQUEST A FREE
-              15 MINUTE FREE CONSULTATION
-            </p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
-          </div>
-          <div class="feature col">
-            <span style="font-size: 3em; color: Tomato">
-              <i class="fa-solid fa-chart-column"></i>
-            </span>
-            <h3 class="fs-2 text-body-emphasis">Bookkeeping</h3>
-            <p>
-              Affordable bookkeeping service from $10 per week. We will keep
-              your accounting in order; hence, your business can maximize the
-              GST position and have more time to focus on your business growth.
-            </p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
-          </div>
-        </div>
+        <h4 class="text-center text-white">
+          Are you looking for an accountant, tax agent or bookkeeping services?
+        </h4>
       </div>
-    </div>
-   </section>
 
-    <section id="choose-us">
-      <div class="container my-4">
-        <h2 class="text-center animate__animated"   id="animated-header"> Why Choose us?</h2>
-        <span class="underline animate__animated" id="animated-header"></span>
-        <div class="row">
-          <div class="col-lg-3 col-md-12 p-2" >
-            <div
-              class="choose-us-wrapper p-4"
-           
+      <section id="services-section">
+        <div class="container my-3">
+          <div class="container px-4 py-5" id="featured-3">
+            <h2
+              class="pb-2 border-bottom text-center animate__animated"
+              id="animated-header"
             >
-              <span style="font-size: 3em; color: Tomato">
-                <i class="fa-solid fa-bullhorn"></i>
-              </span>
-
-              <h2>We ensure Compliance</h2>
-              <p>
-                As our valued clients, you will have the comfort in knowing that
-                we will keep you updated with the most recent changes in the tax
-                legislation, and apply those changes to benefit your business's
-                tax position.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-12 p-2">
-            <div
-              class="choose-us-wrapper p-4"
-           
-            >
-              <span style="font-size: 3em; color: Tomato">
-                <i class="fas fa-users"></i>
-              </span>
-              <h2>Supporting Growth</h2>
-              <p>
-                As the leading CPA accounting firm in Sydney and Adelaide, it is
-                within our vision to support your business's growth through
-                timely and effective accounting advisory and taxation support.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-12 p-2">
-            <div
-              class="choose-us-wrapper p-4"
-           
-            >
-              <span style="font-size: 3em; color: Tomato">
-                <i class="fas fa-file-invoice"></i>
-              </span>
-              <h2>Bookkeeping</h2>
-              <p>
-                You didn’t go into business to get bogged down in paying bills
-                and piles of paperwork. Let us ease the pain. Depending on the
-                size of your enterprise, EndureGo can save you hundreds of hours
-                a year.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-12 p-2">
-            <div
-              class="choose-us-wrapper p-4"
-         
-            >
-              <span style="font-size: 3em; color: Tomato">
-                <i class="fas fa-file-invoice"></i>
-              </span>
-              <h2>Simply Easy</h2>
-              <p>
-                Whether its tax time or you need to make some big financial
-                decisions, your EndureGo accountant will make the task easy.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
- 
-    <section id="blogs-section">
-      <div class="container">
-        <h2 class="text-center animate__animated" id="animated-header">Blog</h2>
-        <span class="underline mb-5 animate__animated" id="animated-header"></span>
-        <div class="row mb-2">
-          <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary">World</strong>
-                <h3 class="mb-0">Featured post</h3>
-                <div class="mb-1 text-muted">Nov 12</div>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="stretched-link">Continue reading</a>
+              Professional CPA Tax Accountants, Tax Agents
+            </h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <span style="font-size: 3em; color: Tomato">
+                  <i class="far fa-dot-circle"></i>
+                </span>
+                <h3 class="fs-2 text-body-emphasis">Professional CPA</h3>
+                <p>
+                  Unlock the growth potential of your business by partnering
+                  with an EndureGo CPA Tax Expert in Inner West Sydney, Belrose
+                  Northern Beaches or Adelaide.
+                </p>
+                <a
+                  href="#contact-us-section"
+                  class="icon-link"
+                  style="color: tomato; text-decoration: none"
+                >
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
               </div>
-              <div class="col-auto d-none d-lg-block">
-                <div class="imgae-wrapper" style="width: 200px; height: 250px; display: flex; justify-content: center;">
-                  <img src="./images/blog1.jpg" class="img-fluid" alt="">
-                 </div>
+              <div class="feature col">
+                <span style="font-size: 3em; color: Tomato">
+                  <i class="fa-solid fa-horse-head"></i>
+                </span>
+                <h3 class="fs-2 text-body-emphasis">Registered Tax Agents</h3>
+                <p>
+                  Accounting Made For You, the Non-Accountant. Are you looking
+                  for an accountant, tax agent or bookkeeping services? REQUEST
+                  A FREE 15 MINUTE FREE CONSULTATION
+                </p>
+                <a
+                  href="#contact-us-section"
+                  class="icon-link"
+                  style="color: tomato; text-decoration: none"
+                >
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-success">Design</strong>
-                <h3 class="mb-0">Post title</h3>
-                <div class="mb-1 text-muted">Nov 11</div>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="stretched-link">Continue reading</a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-               <div class="imgae-wrapper" style="width: 200px; height: 250px; display: flex; justify-content: center;">
-                <img src="./images/blog2.png" class="img-fluid" alt="">
-               </div>
+              <div class="feature col">
+                <span style="font-size: 3em; color: Tomato">
+                  <i class="fa-solid fa-chart-column"></i>
+                </span>
+                <h3 class="fs-2 text-body-emphasis">Bookkeeping</h3>
+                <p>
+                  Affordable bookkeeping service from $10 per week. We will keep
+                  your accounting in order; hence, your business can maximize
+                  the GST position and have more time to focus on your business
+                  growth.
+                </p>
+                <a
+                  href="#contact-us-section"
+                  class="icon-link"
+                  style="color: tomato; text-decoration: none"
+                >
+                  Call to action
+                  <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section
-      class="form-section"
-      style="
-        margin: 50px 0;
-        background-image: url(./images/premium_photo-1658527008322-919cc69c5931.avif),
-          linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.5));
-        background-size: cover;
-        background-blend-mode: overlay;
-        padding: 50px 0;
-      "
-    >
-    <h2 class="text-center text-white">Contact Us</h2>
-    <span class="underline mb-5"></span>
- 
-      <div class="container">
-        
-        <form action="mailto:your@email.com" method="post" enctype="text/plain">
-          <!-- Page 1 -->
-          <div class="form-wrapper container">
-            <div class="row">
-              <div class="col-lg-6 col-md-12">
-                <fieldset>
-                  <label for="name">Name:</label> <br />
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    placeholder="Your Name"
-                  /><br /><br />
-    
-                  <label for="email">Email:</label> <br />
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    placeholder="Your email"
-                  /><br /><br />
-    
-                 
-                </fieldset>
-              </div>
-              <div class="col-lg-6 col-md-12">
-                <fieldset>
-                  
-                  <label for="phone">Phone:</label> <br />
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    placeholder="Your number"
-                  /><br /><br />
-                  <label for="discuss">I would like to discuss</label> <br />
-                  <select class="form-select" id="services" name="Services">
-                    <option value="Company Business Set Up" selected>
-                      Company Business Set Up
-                    </option>
-                    <option value="Business Mentoring and Coaching">
-                      Business Mentoring and Coaching
-                    </option>
-                    <option value="Business Tax returns">
-                      Business Tax returns
-                    </option>
-                    <option value="PAYG Tax Returns">PAYG Tax Returns</option>
-                    <option value="Bookkeeping">Bookkeeping</option>
-                    <option value="Tax Debt Negotiation ">
-                      Tax Debt Negotiation
-                    </option></select
-                  ><br /><br />
-                </fieldset>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <fieldset>
-                  <label for="message">Message:</label><br />
-                  <textarea id="message" name="message" rows="4" required></textarea
-                  ><br /><br />
-                </fieldset>
-              </div>
-            </div>
-            <!-- Page 2 -->
-          
+      </section>
 
-            <!-- Page 3 -->
+      <section id="choose-us">
+        <div class="container my-4">
+          <h2 class="text-center animate__animated" id="animated-header">
+            Why Choose us?
+          </h2>
+          <span class="underline animate__animated" id="animated-header"></span>
+          <div class="row">
+            <div class="col-lg-3 col-md-12 p-2">
+              <div class="choose-us-wrapper p-4">
+                <span style="font-size: 3em; color: Tomato">
+                  <i class="fa-solid fa-bullhorn"></i>
+                </span>
+
+                <h2>We ensure Compliance</h2>
+                <p>
+                  As our valued clients, you will have the comfort in knowing
+                  that we will keep you updated with the most recent changes in
+                  the tax legislation, and apply those changes to benefit your
+                  business's tax position.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 p-2">
+              <div class="choose-us-wrapper p-4">
+                <span style="font-size: 3em; color: Tomato">
+                  <i class="fas fa-users"></i>
+                </span>
+                <h2>Supporting Growth</h2>
+                <p>
+                  As the leading CPA accounting firm in Sydney and Adelaide, it
+                  is within our vision to support your business's growth through
+                  timely and effective accounting advisory and taxation support.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 p-2">
+              <div class="choose-us-wrapper p-4">
+                <span style="font-size: 3em; color: Tomato">
+                  <i class="fas fa-file-invoice"></i>
+                </span>
+                <h2>Bookkeeping</h2>
+                <p>
+                  You didn’t go into business to get bogged down in paying bills
+                  and piles of paperwork. Let us ease the pain. Depending on the
+                  size of your enterprise, EndureGo can save you hundreds of
+                  hours a year.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 p-2">
+              <div class="choose-us-wrapper p-4">
+                <span style="font-size: 3em; color: Tomato">
+                  <i class="fas fa-file-invoice"></i>
+                </span>
+                <h2>Simply Easy</h2>
+                <p>
+                  Whether its tax time or you need to make some big financial
+                  decisions, your EndureGo accountant will make the task easy.
+                </p>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
 
-          <!-- Submit Button -->
-          <input type="submit" value="Submit" style="padding: 8px" />
-        </form>
-      </div>
-    </section>
+      <section id="blogs-section">
+        <div class="container">
+          <h2 class="text-center animate__animated" id="animated-header">
+            Blog
+          </h2>
+          <span
+            class="underline mb-5 animate__animated"
+            id="animated-header"
+          ></span>
+          <div class="row mb-2">
+            <article class="col-md-6">
+              <div
+                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+              >
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2" style="color: tomato"
+                    >World</strong
+                  >
+                  <h3 class="mb-0">Featured post</h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
+                  <a href="#" class="stretched-link" style="color: tomato"
+                    >Continue reading</a
+                  >
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <div
+                    class="imgae-wrapper"
+                    style="
+                      width: 200px;
+                      height: 250px;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <img src="./images/blog1.jpg" class="img-fluid" alt="" />
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-md-6">
+              <div
+                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+              >
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2" style="color: tomato"
+                    >Design</strong
+                  >
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content.
+                  </p>
+                  <a href="#" class="stretched-link" style="color: tomato"
+                    >Continue reading</a
+                  >
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <div
+                    class="imgae-wrapper"
+                    style="
+                      width: 200px;
+                      height: 250px;
+                      display: flex;
+                      justify-content: center;
+                    "
+                  >
+                    <img src="./images/blog2.png" class="img-fluid" alt="" />
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="form-section"
+        id="contact-us-section"
+        style="
+          margin: 50px 0;
+          background-image: url(./images/premium_photo-1658527008322-919cc69c5931.avif),
+            linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.5));
+          background-size: cover;
+          background-blend-mode: overlay;
+          padding: 50px 0;
+        "
+      >
+        <h2 class="text-center text-white">Contact Us</h2>
+        <span class="underline mb-5"></span>
+
+        <div class="container">
+          <form
+            action="mailto:your@email.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <!-- Page 1 -->
+            <div class="form-wrapper container">
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <fieldset>
+                    <label for="name">Name:</label> <br />
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      required
+                      placeholder="Your Name"
+                    /><br /><br />
+
+                    <label for="email">Email:</label> <br />
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      placeholder="Your email"
+                    /><br /><br />
+                  </fieldset>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                  <fieldset>
+                    <label for="phone">Phone:</label> <br />
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="Your number"
+                    /><br /><br />
+                    <label for="discuss">I would like to discuss</label> <br />
+                    <select class="form-select" id="services" name="Services">
+                      <option value="Company Business Set Up" selected>
+                        Company Business Set Up
+                      </option>
+                      <option value="Business Mentoring and Coaching">
+                        Business Mentoring and Coaching
+                      </option>
+                      <option value="Business Tax returns">
+                        Business Tax returns
+                      </option>
+                      <option value="PAYG Tax Returns">PAYG Tax Returns</option>
+                      <option value="Bookkeeping">Bookkeeping</option>
+                      <option value="Tax Debt Negotiation ">
+                        Tax Debt Negotiation
+                      </option></select
+                    ><br /><br />
+                  </fieldset>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <fieldset>
+                    <label for="message">Message:</label><br />
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="4"
+                      required
+                    ></textarea
+                    ><br /><br />
+                  </fieldset>
+                </div>
+              </div>
+              <!-- Page 2 -->
+
+              <!-- Page 3 -->
+            </div>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit" style="padding: 8px" />
+          </form>
+        </div>
+      </section>
+    </main>
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
-          <small class="d-block mb-3 text-body-secondary">© 2023 Aftab Miraj Swachchha</small>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="d-block mb-2"
+            role="img"
+            viewBox="0 0 24 24"
+          >
+            <title>Product</title>
+            <circle cx="12" cy="12" r="10"></circle>
+            <path
+              d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"
+            ></path>
+          </svg>
+          <small class="d-block mb-3 text-body-secondary"
+            >© 2023 Aftab Miraj Swachchha</small
+          >
         </div>
         <div class="col-6 col-md">
-          <h5 style="color: tomato;">Features</h5>
+          <h5 style="color: tomato">Features</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Cool stuff</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Random feature</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Team feature</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Stuff for developers</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Another one</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Last time</a
+              >
+            </li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5 style="color: tomato;">Resources</h5>
+          <h5 style="color: tomato">Resources</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Resource name</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Resource</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Another resource</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Final resource</a
+              >
+            </li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5 style="color: tomato;">Resources</h5>
+          <h5 style="color: tomato">Resources</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Business</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Education</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Government</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">Gaming</a>
+            </li>
           </ul>
         </div>
         <div class="col-6 col-md">
-          <h5 style="color: tomato;">About</h5>
+          <h5 style="color: tomato">About</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-            <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">Team</a>
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Locations</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#"
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a class="link-secondary text-decoration-none" href="#">Terms</a>
+            </li>
           </ul>
         </div>
       </div>
     </footer>
 
-
     <div class="scroll-arrow">
-      <a href="" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up-long"></i></a>
+      <a href="" onclick="scrollToTop()"
+        ><i class="fa-solid fa-arrow-up-long"></i
+      ></a>
     </div>
     <script>
       function calculateTax() {
@@ -562,28 +728,26 @@
     </script>
     <script>
       function scrollToTop() {
-  window.scrollTo(0, 0);
-}
+        window.scrollTo(0, 0);
+      }
     </script>
 
+    <script>
+      let counter_section = document.querySelectorAll(".num");
 
-<script>
-  let counter_section = document.querySelectorAll(".num");
+      counter_section.forEach((data) => {
+        let startTime = 0;
+        let endtime = parseInt(data.getAttribute("data-val"));
+        let duration = 5000 / endtime;
 
-  counter_section.forEach((data) => {
-    let startTime = 0;
-    let endtime = parseInt(data.getAttribute('data-val'));
-    let duration = 5000 / endtime
-
-    const counter =  setInterval(() => {
-      startTime +=1;
-      data.textContent = startTime;
-      if(startTime == endtime) {
-        clearInterval(counter)
-      }
-
-    }, duration)
-  })
-</script>
+        const counter = setInterval(() => {
+          startTime += 1;
+          data.textContent = startTime;
+          if (startTime == endtime) {
+            clearInterval(counter);
+          }
+        }, duration);
+      });
+    </script>
   </body>
 </html>
